@@ -2,21 +2,23 @@
   div.layout
     header.header
       strong
-        g-link(to="/") {{ $static.metaData.siteName }}
+        g-link(to="/") GBlog
       nav.nav
         g-link.nav__link(to="/") Home
-        g-link.nav__link(to="/about") About
         g-link.nav__link(to="/posts") Posts
     transition(name="fade" appear)
       main
         slot
-        LatestPost
+        LatestPost(v-show="isPage")
 </template>
 
 <script>
 import LatestPost from '../components/LatestPost'
 
 export default {
+  props: {
+    isPage: { type: Boolean, required: false }
+  },
   components: {
     LatestPost
   }
@@ -31,19 +33,17 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
+<style lang="scss">
+
+@import "../assets/styles/main.scss";
 
 .layout {
   max-width: 760px;
+
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 30px;
 }
 
 .header {

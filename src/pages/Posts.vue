@@ -1,4 +1,4 @@
 <template lang="pug">
-    Layout
+    Layout(:isPage="true")
         h1 Posts:
 </template>

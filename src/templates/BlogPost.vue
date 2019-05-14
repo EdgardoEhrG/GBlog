@@ -1,5 +1,6 @@
 <template lang="pug">
-    article
+    Layout
+        article
         h1 {{ $page.blogPost.title }}
         g-image(:src="$page.blogPost.image")
         div(v-html="$page.blogPost.content")
