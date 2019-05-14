@@ -1,5 +1,4 @@
-<template>
-    <Layout>
-        <h1>Posts:</h1>
-    </Layout>
+<template lang="pug">
+    Layout
+        h1 Posts:
 </template>

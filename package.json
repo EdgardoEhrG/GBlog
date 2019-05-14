@@ -7,6 +7,18 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "^0.4.1",
+    "@gridsome/transformer-remark": "^0.3.1",
     "gridsome": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-gridsome": "^1.2.5",
+    "gridsome-plugin-pug": "0.0.3",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.3",
+    "sass-loader": "^7.1.0",
+    "style-resources-loader": "^1.2.1",
+    "vue-eslint-parser": "^6.0.4"
   }
 }
