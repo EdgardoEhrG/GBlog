@@ -1,7 +1,5 @@
 # GBlog
 
-Blog
-
 > Gridsome
 
 > GraphQL
@@ -9,3 +7,7 @@ Blog
 > Pug
 
 > Sass (SCSS)
+
+## Useful elements
+
+- [ ] MD files converter

@@ -2,7 +2,7 @@
 title: Alabama
 date: 2019-03-05
 slug: alabama
-tags: ['South']
+tags: ["South"]
 image: ./images/Alabama.jpg
 ---
 

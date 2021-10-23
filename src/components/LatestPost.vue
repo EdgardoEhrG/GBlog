@@ -24,20 +24,17 @@
 </static-query>
 
 <style lang="scss" scoped>
-
 .article-container {
-    article {
-        margin: 30px 0;
+  article {
+    margin: 30px 0;
 
-        h2 {
-            margin: 10px 0;
-        }
-
-        p {
-            margin: 10px 0;
-        }
+    h2 {
+      margin: 10px 0;
     }
+
+    p {
+      margin: 10px 0;
+    }
+  }
 }
-
 </style>
-

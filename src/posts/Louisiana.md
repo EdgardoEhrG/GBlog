@@ -2,7 +2,7 @@
 title: Louisiana
 date: 2019-14-05
 slug: louisiana
-tags: ['South']
+tags: ["South"]
 image: ./images/Louisiana.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: Tennessee
 date: 2019-12-05
 slug: tennessee
-tags: ['South']
+tags: ["South"]
 image: ./images/Tennessee.jpg
 ---
 

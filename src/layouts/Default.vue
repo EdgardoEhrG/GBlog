@@ -13,16 +13,16 @@
 </template>
 
 <script>
-import LatestPost from '../components/LatestPost'
+import LatestPost from "../components/LatestPost";
 
 export default {
   props: {
-    isPage: { type: Boolean, required: false }
+    isPage: { type: Boolean, required: false },
   },
   components: {
-    LatestPost
-  }
-}
+    LatestPost,
+  },
+};
 </script>
 
 <static-query>
@@ -34,7 +34,6 @@ query {
 </static-query>
 
 <style lang="scss">
-
 @import "../assets/styles/main.scss";
 
 .layout {
@@ -65,5 +64,4 @@ query {
 .fade-enter {
   opacity: 0;
 }
-
 </style>

@@ -2,7 +2,7 @@
 title: North Carolina
 date: 2019-11-05
 slug: north-carolina
-tags: ['South']
+tags: ["South"]
 image: ./images/NorthCarolina.jpg
 ---
 

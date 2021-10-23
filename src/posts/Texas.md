@@ -2,7 +2,7 @@
 title: Texas
 date: 2019-14-05
 slug: texas
-tags: ['South']
+tags: ["South"]
 image: ./images/Texas.jpg
 ---
 

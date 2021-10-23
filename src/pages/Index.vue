@@ -9,15 +9,13 @@
 <script>
 export default {
   metaInfo: {
-    title: 'GBlog'
-  }
-}
+    title: "GBlog",
+  },
+};
 </script>
 
 <style lang="scss">
-
 .text {
   margin: 20px 0;
 }
-
 </style>

@@ -2,7 +2,7 @@
 title: Florida
 date: 2019-14-05
 slug: florida
-tags: ['South']
+tags: ["South"]
 image: ./images/Florida.jpg
 ---
 
